@@ -175,7 +175,7 @@ var VueTinySlider = {
 	},
 	beforeDestroy: function() {
 		if(this.slider) {
-			this.slider.destroy();
+			//this.slider.destroy();
 		}
 	},
 	methods: {
